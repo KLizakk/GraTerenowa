@@ -1,0 +1,15 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:maps="clr-namespace:Microsoft.Maui.Controls.Maps;assembly=Microsoft.Maui.Controls.Maps"
+             x:Class="GraTerenowa.MainPage">
+
+    <VerticalStackLayout>
+        <maps:Map x:Name="GameMap"
+                  IsShowingUser="True"
+                  HeightRequest="500" />
+        <Label x:Name="ScoreLabel"
+               Text="Points: 0"
+               FontSize="20"
+               HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>
